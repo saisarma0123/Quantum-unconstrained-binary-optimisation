@@ -13,3 +13,14 @@ This repo contains:
 - `results/` — generated outputs (plots, CSVs) — ignored from Git.
 
 This project is aimed at experimentation and research-style benchmarking, not production-level annealing.
+
+## When using make sure to have the required libraries:
+numpy
+pandas
+matplotlib
+dimod
+neal            # SA sampler if you use neal.SimulatedAnnealingSampler
+dwave-ocean-sdk # optional (if you use other D-Wave Ocean tooling)
+
+# Make sure to download a sudoku.csv of 1 million puzzles, and keep every file in same folder. Access it through thif link :
+https://www.kaggle.com/datasets/bryanpark/sudoku
